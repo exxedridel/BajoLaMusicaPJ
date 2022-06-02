@@ -34,7 +34,7 @@ const Header = () => {
 
         <ul>
           <li>
-            <Link to="/404">Vlog</Link>
+            <Link to="/vlog">Vlog</Link>
           </li>
           <li>
             <Link to="/404">Noticias</Link>

@@ -1,0 +1,80 @@
+header {
+   background-color: var(--contrast);
+   color: white;
+   padding: 0.2rem;
+ }
+ 
+ header h1 {
+   font-size: 2rem;
+   text-align: center;
+ }
+ 
+ .container {
+   width: 550px;
+   margin: 0 auto;
+ }
+ 
+ section article {
+   transition: all 0.3s ease;
+   background-color: var(--text-input-field);
+   margin: 1rem 0;
+   border-radius: 0.5rem;
+   padding: 0.25rem 0;
+   cursor: pointer;
+ }
+ 
+ section article:hover {
+   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+ }
+ 
+ section article h2,
+ section article p {
+   margin: 1rem;
+ }
+ 
+ article img {
+   width: 550px;
+ }
+ 
+ article p {
+   text-align: justify;
+   font-size: 1rem;
+ }
+ 
+ .button {
+   background-color: var(--text-input-field);
+   border: 1px solid var(--contrast);
+   color: var(--contrast);
+   border-radius: 2px;
+   padding: 10px 14px;
+   text-align: center;
+   text-decoration: none;
+   display: flex;
+   font-size: 14px;
+   margin: 4px 2px 8px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+ }
+ .button:hover {
+   background-color: red;
+   border: 1px solid red;
+   color: white;
+ }
+ .github-buttons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .github-buttons a {
+   text-decoration: none;
+ }
+ 
+ @media (max-width: 415px) {
+   .container {
+     width: 360px;
+     margin: 1px auto;
+   }
+   article img {
+     width: 360px;
+   }
+ }

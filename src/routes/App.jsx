@@ -10,6 +10,7 @@ import MyAccount from "../pages/MyAccount";
 import CreateAccount from "../pages/CreateAccount";
 import Contact from "../pages/Contact";
 import Orders from "../pages/Orders";
+import Vlog from "../pages/Vlog";
 import NotFound from "../pages/NotFound";
 import AppContext from "../context/AppContext";
 import useInitialState from "../hooks/useInitialState";
@@ -31,6 +32,7 @@ const App = () => {
             <Route exact path="/signup" component={CreateAccount} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/orders" component={Orders} />
+            <Route exact path="/vlog" component={Vlog} />
             <Route path="*" component={NotFound} />
           </Switch>
         </Layout>
