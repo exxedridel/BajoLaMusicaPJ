@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import "../styles/Vlog.scss";
 
 const Vlog = () => {
@@ -12,9 +13,11 @@ const Vlog = () => {
         <article className="post">
           <h2>NIMB / Dificultades de ser músico en México</h2>
           <p>Minidocumental</p>
-          <a href="https://silver-buttercream-9d33ca.netlify.app">
-            <img src="" alt="capture3" />
-          </a>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=cFA0pChVtK4"
+            width="100%"
+            controls
+          />
           <p>
             Este es un trabajo que tiene como finalidad documentar el trabajo y
             esfuerzo de las bandas nacionales por tener un lugar dentro de la
@@ -57,9 +60,11 @@ const Vlog = () => {
             MATA
           </h2>
           <p>Video Blog</p>
-          <a href="https://silver-buttercream-9d33ca.netlify.app">
-            <img src="" alt="capture2" />
-          </a>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=IFKrc2IlF8w&t=1440s"
+            width="100%"
+            controls
+          />
           <p>
             Así es banda aquí estamos de nuevo platicando de cosas que nadie nos
             pidió pero que nos maman, así que si les interesa pasar un rato con
@@ -77,9 +82,11 @@ const Vlog = () => {
         <article className="post">
           <h2>Jorge Preza</h2>
           <p>Bajo el Jam</p>
-          <a href="https://silver-buttercream-9d33ca.netlify.app">
-            <img src="" alt="capture1" />
-          </a>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=DUyR_0UjuTU"
+            width="100%"
+            controls
+          />
           <p>
             Escuchen esta jam que para nosotros representa un momento muy perron
             con nuestro amigo Jorge Arturo Preza Ortiz. Conectamos ideas

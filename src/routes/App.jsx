@@ -11,6 +11,7 @@ import CreateAccount from "../pages/CreateAccount";
 import Contact from "../pages/Contact";
 import Orders from "../pages/Orders";
 import Vlog from "../pages/Vlog";
+import News from "../pages/News";
 import NotFound from "../pages/NotFound";
 import AppContext from "../context/AppContext";
 import useInitialState from "../hooks/useInitialState";
@@ -33,6 +34,7 @@ const App = () => {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/orders" component={Orders} />
             <Route exact path="/vlog" component={Vlog} />
+            <Route exact path="/news" component={News} />
             <Route path="*" component={NotFound} />
           </Switch>
         </Layout>

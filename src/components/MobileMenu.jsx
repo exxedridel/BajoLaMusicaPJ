@@ -10,10 +10,10 @@ const MobileMenu = () => {
           <Link to="/login">BAJO LA MUSICA</Link>
         </li>
         <li>
-          <Link to="/404">Vlog</Link>
+          <Link to="/vlog">Vlog</Link>
         </li>
         <li>
-          <Link to="/404">Noticias</Link>
+          <Link to="/news">Noticias</Link>
         </li>
         <li>
           <Link to="/Contact">Contacto</Link>
