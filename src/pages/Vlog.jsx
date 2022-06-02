@@ -47,8 +47,8 @@ const Vlog = () => {
               </a>
             </li>
           </ul>
-          <div className="github-buttons">
-            <a href="https://github.com/exxedridel/BajoLaMusicaPJ">
+          <div className="subscribe-button">
+            <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
               <button className="button">SUSCRIBIRME</button>
             </a>
           </div>
@@ -72,8 +72,8 @@ const Vlog = () => {
             música, no duden en visitarnos.{" "}
           </p>
           <p></p>
-          <div className="github-buttons">
-            <a href="https://github.com/exxedridel/BajoLaMusicaPJ">
+          <div className="subscribe-button">
+            <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
               <button className="button">SUSCRIBIRME</button>
             </a>
           </div>
@@ -105,8 +105,8 @@ const Vlog = () => {
             </li>
           </ul>
           
-          <div className="github-buttons">
-            <a href="https://github.com/exxedridel/BajoLaMusicaPJ">
+          <div className="subscribe-button">
+            <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
               <button className="button">SUSCRIBIRME</button>
             </a>
           </div>

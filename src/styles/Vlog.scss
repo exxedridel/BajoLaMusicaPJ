@@ -62,13 +62,14 @@ article p {
   background-color: red;
   border: 1px solid red;
   color: white;
+  font-weight: bold;
 }
-.github-buttons {
+.subscribe-button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.github-buttons a {
+.subscribe-button a {
   text-decoration: none;
 }
 
