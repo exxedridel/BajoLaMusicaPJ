@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "../styles/Menu.scss";
 
 const Menu = () => {
@@ -6,15 +7,15 @@ const Menu = () => {
     <div className="Menu">
       <ul>
         <li>
-          <a href="/orders" className="title">
+          <Link to="/orders" className="title">
             My orders
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/account">My account</a>
+          <Link to="/account">My account</Link>
         </li>
         <li>
-          <a href="/login">Sign out</a>
+          <Link to="/login">Sign out</Link>
         </li>
       </ul>
     </div>

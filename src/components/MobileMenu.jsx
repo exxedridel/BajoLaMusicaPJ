@@ -1,44 +1,45 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/MobileMenu.scss";
 
 const MobileMenu = () => {
   return (
-    <div class="mobile-menu">
+    <div className="mobile-menu">
       <ul>
         <li className="mobile-title">
-          <a href="/login">BAJO LA MUSICA</a>
+          <Link to="/login">BAJO LA MUSICA</Link>
         </li>
         <li>
-          <a href="/404">Vlog</a>
+          <Link to="/404">Vlog</Link>
         </li>
         <li>
-          <a href="/404">Noticias</a>
+          <Link to="/404">Noticias</Link>
         </li>
         <li>
-          <a href="/Contact">Contacto</a>
+          <Link to="/Contact">Contacto</Link>
         </li>
         <li>
-          <a href="/">NTFs</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="/orders">My orders</a>
-        </li>
-        <li>
-          <a href="/account">My account</a>
+          <Link to="/">NTFs</Link>
         </li>
       </ul>
       <ul>
         <li>
-          <a href="/account" class="email">
+          <Link to="/orders">My orders</Link>
+        </li>
+        <li>
+          <Link to="/account">My account</Link>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <Link to="/account" className="email">
             hevedrios@gmail.com
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/login" class="sign-out">
+          <Link to="/login" className="sign-out">
             Sign out
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
