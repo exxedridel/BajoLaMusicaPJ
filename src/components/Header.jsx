@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
-import "@styles/Header.scss"; // se cambia el ../ por el arroba al haber puesto el alias en el webpack.config.js, lo busca en la carpeta
+import { Link } from "react-router-dom";
+import "@styles/Header.scss";
 import MobileMenu from "./MobileMenu";
 import Menu from "@components/Menu";
 import MyOrder from "../containers/MyOrder";
@@ -27,22 +28,22 @@ const Header = () => {
       <img src={menu} alt="menu" className="menu" onClick={handleToggleMobile}/>
 
       <div className="navbar-left">
-        <a href="/login">
+        <Link to="/login">
           <img src={logo} alt="logo" className="nav-logo" />
-        </a>
+        </Link>
 
         <ul>
           <li>
-            <a href="/404">Vlog</a>
+            <Link to="/404">Vlog</Link>
           </li>
           <li>
-            <a href="/404">Noticias</a>
+            <Link to="/404">Noticias</Link>
           </li>
           <li>
-            <a href="/Contact">Contacto</a>
+            <Link to="/Contact">Contacto</Link>
           </li>
           <li>
-            <a href="/">NFTs</a>
+            <Link to="/">NFTs</Link>
           </li>
         </ul>
 
