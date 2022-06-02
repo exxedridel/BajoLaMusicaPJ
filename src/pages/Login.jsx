@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from "react-router-dom";
 import '../styles/Login.scss';
 // import logo from "@logos/logo_bajo_musica.png";
 
@@ -29,14 +30,14 @@ const Login = () => {
 						className="primary-button login-button">
 						Log in
 					</button>
-					<a href="/password-recovery">Forgot my password</a>
+					<Link to="/password-recovery">Forgot my password</Link>
 				</form>
-				<a href="/signup">
+				<Link to="/signup">
 				<button 
 					className="secondary-button signup-button">
 					Sign up
 				</button>
-				</a>
+				</Link>
 			</div>
 		</div>
 	);
