@@ -32,7 +32,7 @@ const Login = () => {
 					</button>
 					<Link to="/password-recovery">Forgot my password</Link>
 				</form>
-				<Link to="/signup">
+				 <Link to="/signup"> 
 				<button 
 					className="secondary-button signup-button">
 					Sign up
