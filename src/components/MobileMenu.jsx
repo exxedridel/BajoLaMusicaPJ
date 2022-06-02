@@ -32,7 +32,7 @@ const MobileMenu = () => {
       <ul>
         <li>
           <a href="/account" class="email">
-            bajolamusica@gmail.com
+            hevedrios@gmail.com
           </a>
         </li>
         <li>
