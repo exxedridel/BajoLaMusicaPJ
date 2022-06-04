@@ -38,12 +38,12 @@ const Vlog = () => {
           <ul>
             <li>
               <a href="https://nimb.bandcamp.com/">
-                NIMB Bandcamp
+                NIMB - Bandcamp
               </a>
             </li>
             <li>
               <a href="mailto:nimbcontacto@gmail.com">
-                NIMB contacto
+                NIMB - contacto
               </a>
             </li>
           </ul>
@@ -100,7 +100,7 @@ const Vlog = () => {
           <ul>
             <li>
             <a href="https://www.facebook.com/jorgearturo.prezaortiz">
-              Harry Facebook
+              Harry - Facebook
             </a>
             </li>
           </ul>

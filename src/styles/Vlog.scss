@@ -24,7 +24,7 @@ section article {
 }
 
 section article:hover {
-  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.1rem 0.4rem rgba(255, 198, 242, 0.3);
 }
 
 section article h2,
@@ -37,6 +37,11 @@ article img {
 }
 article a {
   text-decoration: none;
+  color: var(--contrast);
+}
+article a:hover {
+  color: rgb(170, 112, 156);
+  transition: all 0.3s ease;
 }
 
 article p {
