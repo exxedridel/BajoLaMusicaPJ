@@ -10,6 +10,42 @@ const Vlog = () => {
       </header>
       <section className="container">
 
+     <article className="post">
+          <h2>Choco Bestia: "El limite entre el ruido y la música" </h2>
+          <p>Entrevista</p>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=SwuSqa7GVrg&t=2s"
+            width="100%"
+            controls
+          />
+        
+          <p>
+            Hasta donde se considera música y donde comienza el ruido?
+            Nuestro invitado Choco Bestia nos platica sobre su proyecto y la escena Noise en Guanajuato Capital.
+
+          </p>
+          <p>
+            Agradecemos a Bar "La Antigua" y a José Fellini por su ayuda en la realización de este material.
+          </p>
+          <ul>
+            <li>
+              <a href="https://chocobestia.bandcamp.com/">
+                Choco Bestia - Bandcamp
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/choco_bestia/">
+                Choco Bestia - Instagram
+              </a>
+            </li>
+          </ul>
+          <div className="subscribe-button">
+            <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
+              <button className="button">SUSCRIBIRME</button>
+            </a>
+          </div>
+        </article>
+    
         <article className="post">
           <h2>NIMB / Dificultades de ser músico en México</h2>
           <p>Minidocumental</p>
