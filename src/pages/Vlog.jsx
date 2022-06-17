@@ -10,16 +10,54 @@ const Vlog = () => {
       </header>
       <section className="container">
 
-     <article className="post">
+        <article className="post">
+          <h2>
+            Parte 2 NIMB Ft. Luminicos & Moonglows
+          </h2>
+          <p>Bajo el Directo</p>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=hBOuc18zDJI"
+            width="100%"
+            controls
+          />
+          <p>
+            Segunda parte del minidicumental sobre las problemática de la escena musical... toquin en la "Llamarada Madero" con la
+            participación de Luminicos y Moonglow_s exponentes de la escena musical nacional.
+          </p>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/nimbmusica/?igsh.">
+                NIMB - Instagram
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/luminicos/">
+                Luminicos - Instagram
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/_moonglow_s/">
+                Moonglows_O - Instagram
+              </a>
+            </li>
+          </ul>
+          <div className="subscribe-button">
+            <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
+              <button className="button">SUSCRIBIRME</button>
+            </a>
+          </div>
+        </article>
+
+        <article className="post">
           <h2>Choco Bestia </h2>
-          <h2> "El limite entre el ruido y la música" </h2> 
+          <h2> "El limite entre el ruido y la música" </h2>
           <p>Entrevista</p>
           <ReactPlayer
             url="https://www.youtube.com/watch?v=SwuSqa7GVrg&t=2s"
             width="100%"
             controls
           />
-        
+
           <p>
             Hasta donde se considera música y donde comienza el ruido?
             Nuestro invitado Choco Bestia nos platica sobre su proyecto y la escena Noise en Guanajuato Capital.
@@ -46,7 +84,7 @@ const Vlog = () => {
             </a>
           </div>
         </article>
-    
+
         <article className="post">
           <h2>NIMB / Dificultades de ser músico en México</h2>
           <p>Minidocumental</p>
@@ -136,12 +174,12 @@ const Vlog = () => {
           </p>
           <ul>
             <li>
-            <a href="https://www.facebook.com/jorgearturo.prezaortiz">
-              Harry - Facebook
-            </a>
+              <a href="https://www.facebook.com/jorgearturo.prezaortiz">
+                Harry - Facebook
+              </a>
             </li>
           </ul>
-          
+
           <div className="subscribe-button">
             <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
               <button className="button">SUSCRIBIRME</button>
