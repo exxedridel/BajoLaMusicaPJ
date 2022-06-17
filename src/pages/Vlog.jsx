@@ -12,7 +12,7 @@ const Vlog = () => {
 
      <article className="post">
           <h2>Choco Bestia </h2>
-          <h3> "El limite entre el ruido y la música" </h3> 
+          <h2> "El limite entre el ruido y la música" </h2> 
           <p>Entrevista</p>
           <ReactPlayer
             url="https://www.youtube.com/watch?v=SwuSqa7GVrg&t=2s"
