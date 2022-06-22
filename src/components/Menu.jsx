@@ -2,20 +2,20 @@ import React from "react";
 import {Link} from "react-router-dom";
 import "../styles/Menu.scss";
 
-const Menu = () => {
+const Menu = ({handleToggle}) => {
   return (
     <div className="Menu">
       <ul>
         <li>
-          <Link to="/orders" className="title">
+          <Link to="/orders" className="title" onClick={handleToggle}>
             My orders
           </Link>
         </li>
         <li>
-          <Link to="/account">My account</Link>
+          <Link to="/account" onClick={handleToggle}>My account</Link>
         </li>
         <li>
-          <Link to="/login">Sign out</Link>
+          <Link to="/login" onClick={handleToggle}>Sign out</Link>
         </li>
       </ul>
     </div>

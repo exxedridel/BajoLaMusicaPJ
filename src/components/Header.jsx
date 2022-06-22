@@ -62,9 +62,9 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      {toggleMobile && <MobileMenu />}
-      {toggle && <Menu />}
-      {toggleOrders && <MyOrder />}
+      {toggleMobile && <MobileMenu handleToggleMobile={handleToggleMobile}/>}
+      {toggle && <Menu handleToggle={handleToggle} />}
+      {toggleOrders && <MyOrder toggleOrders={toggleOrders} setToggleOrders={setToggleOrders} />}
     </nav>
   );
 };
